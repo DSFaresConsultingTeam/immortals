@@ -1,0 +1,262 @@
+.bg-sweet {
+	background-color: $color-gray;
+}
+
+.bg-light {
+	background-color: $bg-gray-7;
+}
+
+.selector-for-some-widget {
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.npd {
+	padding-right: 0;
+}
+.npd {
+	padding-right: 0;
+}
+
+.classic-font {
+	color: $color-light-yellow;
+	font-size: 24px;
+	font-family: $font-PyrusSigils;
+	letter-spacing: 3px;
+}
+
+p {
+	font-size: 14px;
+	color: $color-gray;
+	font-family: $font-GothamSSm;
+	font-weight: 400;
+}
+
+.icon-dot {
+	font-size: 19px;
+	position: relative;
+	&:after {
+		position: absolute;
+		left: -6px;
+		top: 50%;
+		height: 4px;
+		width: 4px;
+		border-radius: 50%;
+		background: $bg-light-yellow;
+		content: "";
+		z-index: 99;
+		margin-top: -1px;
+	}
+}
+
+.section-title {
+	h4 {
+		font-size: 18px;
+		color: $color-light-yellow;
+		font-family: $font-Elan;
+		font-weight: 500;
+		letter-spacing: 3px;
+	}
+}
+.join-btn {
+	display: inline-flex;
+	align-items: center;
+	border: 1px solid $border-light-yellow-1;
+	height: 65px;
+	h4 {
+		margin: 0;
+		line-height: 1;
+		color: $color-light-yellow;
+		font-family: $font-Elan;
+		font-weight: 400;
+		padding: 20px 90px;
+		border-right: 1px solid $border-light-yellow-2;
+		@media (min-width: 768px) and (max-width: 991px) {
+			h4 {
+				padding: 20px 20px;
+				font-size: 14px;
+				height: 100%;
+				line-height: 1;
+				margin: 0;
+				display: flex;
+				align-items: center;
+			}
+		}
+		@media only screen and (min-width: 320px) and (max-width: 767px) {
+			h4 {
+				padding: 20px 20px;
+				font-size: 14px;
+				height: 100%;
+				line-height: 1;
+				margin: 0;
+				display: flex;
+				align-items: center;
+			}
+		}
+	}
+	img {
+		padding: 20px;
+		border-right: 1px solid $border-light-yellow-2;
+	}
+	a {
+		color: $color-light-yellow;
+		font-size: 10px;
+		letter-spacing: 5px;
+		padding: 22px;
+		display: inline-flex;
+		align-items: center;
+		line-height: 1;
+		i {
+			margin-left: 20px;
+		}
+		&:hover {
+			background: $bg-light-yellow;
+			color: $color-white;
+			i::after {
+				background: $bg-white;
+			}
+		}
+	}
+}
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	.join-btn {
+		display: block;
+		height: auto;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		* {
+			border: none !important;
+		}
+	}
+}
+
+.v-all-more {
+	color: $color-gray;
+	font-weight: 500;
+	text-align: center;
+	display: inline-flex;
+	align-items: center;
+	letter-spacing: 4px;
+	font-family: $font-Elan;
+	i {
+		margin-left: 15px;
+		&:after {
+			background: $bg-white;
+		}
+	}
+
+	&:hover {
+		color: $color-white;
+	}
+}
+.inr-title {
+	color: $color-dark;
+}
+.hero-button-list {
+	justify-content: center;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.mobile-only {
+		display: block;
+	}
+	.desktop-only {
+		display: none;
+	}
+}
+.scroll-hide::-webkit-scrollbar {
+	display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.scroll-hide {
+	-ms-overflow-style: none; /* IE and Edge */
+	scrollbar-width: none; /* Firefox */
+}
+
+.section-title {
+	&.dark-title {
+		h5 {
+			color: $color-dark;
+		}
+		h2 {
+			color: $color-dark;
+		}
+		h3 {
+			color: $color-light-yellow-3;
+		}
+		p {
+			color: $color-dark;
+		}
+	}
+	h6 {
+		font-size: 18px;
+		color: $color-light-yellow-3;
+		font-family: "Elan ITC Std";
+		font-weight: 500;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+	}
+	h5 {
+		font-size: 14px;
+		color: $color-gray;
+		font-weight: 500;
+		font-family: $font-GothamSSm;
+		letter-spacing: 5px;
+		text-transform: uppercase;
+		margin: 0;
+		line-height: 1;
+	}
+
+	h2 {
+		font-size: 60px;
+		color: $color-white;
+		text-transform: uppercase;
+		font-weight: 500;
+		font-family: $font-Elan;
+		margin: 0;
+		line-height: 1.2;
+	}
+	h3 {
+		color: $color-light-yellow;
+		font-size: 24px;
+		font-family: $font-PyrusSigils;
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		margin: 0;
+		line-height: 1;
+	}
+}
+
+.vw-more-btn a {
+	display: block;
+	width: 160px;
+	margin: 0 auto;
+	height: 40px;
+	line-height: 40px;
+
+	color: $color-light-yellow-3;
+	text-transform: uppercase;
+	font-size: 10px;
+	font-weight: 500;
+	border: 1px solid $bg-light-yellow;
+	transition: 0.3s;
+}
+.vw-more-btn a:hover {
+	background: $bg-light-yellow;
+	color: $color-white;
+}
+
+.md-block {
+	display: block;
+}
+
+.sm-block {
+	display: none;
+}

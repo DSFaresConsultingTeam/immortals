@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.271" height="39.983" viewBox="0 0 34.271 39.983">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H34.271V39.983H0Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Ability" transform="translate(0 0)">
+    <path id="Clip_2-2" data-name="Clip 2" d="M0,0H34.271V39.983H0Z" transform="translate(0 0)" fill="none"/>
+    <g id="Ability-2" data-name="Ability" clip-path="url(#clip-path)">
+      <path id="Fill_1" data-name="Fill 1" d="M34.267,39.98l-7.611-5.709V24.752l4.039,6.731.1,3.115,3.478,5.381ZM0,39.98H0L3.481,34.6l.1-3.115,4.039-6.731v9.519Zm24.747-7.612h0c-.115-.093-2.854-2.319-5.943-4.883l3.82-3.182,2.125,2.681v5.386Zm-15.232,0V26.982L24.059,8.635,34.271,5.711s0,.006,0,.013a25.737,25.737,0,0,1-2.074,4.132,53.729,53.729,0,0,1-8.135,10.2C21.411,22.706,9.64,32.27,9.521,32.366Zm1.9-11.425h0l-1.21-.883a27.864,27.864,0,0,1-8.567-9.7A16.068,16.068,0,0,1,0,5.711L10.213,8.636l5.313,6.7-4.1,5.6ZM17.135,7.616v0l-1.9-3.806h-1.9L17.135,0l3.808,3.808h-1.9l-1.9,3.806Z" transform="translate(0 0)" fill="#90a4b3"/>
+    </g>
+  </g>
+</svg>

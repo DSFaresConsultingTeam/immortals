@@ -1,0 +1,11 @@
+<svg id="Right_Arrow" data-name="Right Arrow" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="11.321" height="11.979" viewBox="0 0 11.321 11.979">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Clip_2" data-name="Clip 2" d="M0,0H11.321V11.979H0Z" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <path id="Clip_2-2" data-name="Clip 2" d="M0,0H11.321V11.979H0Z" transform="translate(0 0)" fill="none"/>
+  <g id="Right_Arrow-2" data-name="Right Arrow" clip-path="url(#clip-path)">
+    <path id="Fill_1" data-name="Fill 1" d="M5.332,11.979h0l-1.5-1.5L8.327,5.989,3.834,1.5,5.332,0,9.823,4.492l1.5,1.5-1.5,1.5L5.332,11.978Zm-3.743-4.4a1.588,1.588,0,1,1,1.124-.465A1.578,1.578,0,0,1,1.588,7.578Z" transform="translate(0 0)" fill="#e2decb"/>
+  </g>
+</svg>

@@ -1,0 +1,347 @@
+.media-hero-area {
+	height: 600px;
+	.universe-hro-content {
+		.universe-top-txt {
+			p {
+				margin-top: 0 !important;
+			}
+			.unverse-tp-title-logo-blk::after {
+				display: none;
+			}
+		}
+	}
+}
+
+.screen-share-area {
+	background: $bg-dark;
+	padding-top: 150px;
+	.share-immortal-slide {
+		.game-chart-list {
+			position: relative;
+			transition: 0.4s;
+			margin-bottom: 20px;
+			&:hover {
+				.game-chrt-list-txt {
+					h4 {
+						color: $color-light-yellow-3;
+					}
+					p {
+						color: $color-light-gray-2;
+					}
+				}
+				&::after {
+					opacity: 1;
+				}
+				&::before {
+					opacity: 1;
+				}
+			}
+		}
+		.game-chrt-list-txt {
+			text-align: center;
+			margin-top: 20px;
+			h4 {
+				text-transform: uppercase;
+				font-size: 12px;
+				letter-spacing: 3px;
+				color: $color-gray;
+				margin: 0;
+				line-height: 1.5;
+			}
+			p {
+				margin: 0;
+				color: $color-gray-5;
+				font-size: 8px;
+				text-transform: uppercase;
+				letter-spacing: 3px;
+			}
+		}
+		.game-chrt-list-img {
+			img {
+				width: 100%;
+			}
+		}
+		.game-chart-list:after {
+			content: "";
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			height: 105%;
+			width: calc(100% - 20px);
+			border: 2px solid $border-light-yellow;
+			opacity: 0;
+			transition: 0.4s;
+		}
+		.game-chart-list:before {
+			content: "";
+			position: absolute;
+			left: 10px;
+			bottom: 35px;
+			width: calc(100% - 20px);
+			background: $bg-light-yellow;
+			height: 2px;
+			opacity: 0;
+			transition: 0.4s;
+		}
+	}
+
+	.share-immortal-slider {
+		position: relative;
+		.owl-nav {
+			button {
+				position: absolute;
+				top: 30%;
+				transform: translateY(-50%);
+				left: -60px;
+				&.owl-next {
+					left: auto;
+					right: -60px;
+				}
+			}
+		}
+		&:after {
+			content: "";
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			height: 1px;
+			width: calc(100% + 40px);
+			background: $bg-gray-8;
+			transform: translateX(-50%);
+			z-index: -1;
+		}
+	}
+}
+
+.hro-slider-area {
+	&.media-btm-slider {
+		margin-bottom: -300px;
+		background: $bg-dark;
+		.owl-nav {
+			display: none;
+		}
+		.hro-slider-active {
+			&::after {
+				width: calc(100% + 40px);
+				left: -20px;
+				border-color: $border-dark-5;
+			}
+		}
+		.share-immortal-slider .owl-nav button {
+			position: absolute;
+			top: 30%;
+			transform: translateY(-50%);
+			left: -60px;
+		}
+		.share-immortal-slider .owl-nav button.owl-next {
+			left: auto;
+			right: -60px;
+		}
+		.share-immortal-slider {
+			position: relative;
+		}
+		.share-immortal-slider:after {
+			content: "";
+			position: absolute;
+			top: 30%;
+			left: 50%;
+			height: 1px;
+			width: calc(100% + 40px);
+			background: $bg-gray-8;
+			transform: translateX(-50%);
+			z-index: -1;
+		}
+
+		.hero-button-list a:nth-child(1) span {
+			right: auto;
+			left: 0;
+			border: none;
+			border-right: 1px solid;
+
+			width: 51px;
+
+			display: block;
+			padding: 0;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+		}
+		.hero-button-list a:nth-child(1) span img {
+			width: 20px;
+		}
+		.hero-button-list a:nth-child(1) {
+			width: 100%;
+			padding-left: 60px;
+		}
+		.hero-button-list a:nth-child(2) span {
+			border: none;
+			transform: rotate(90deg);
+		}
+	}
+}
+
+.faction-media-galleary-area {
+	padding-top: 300px;
+	background-color: $bg-gray-3;
+
+	.faction-media-images {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: -10px;
+		margin-right: -10px;
+		.faction-media-img {
+			position: relative;
+			flex: 1;
+			height: 200px;
+			margin: 10px;
+			img {
+				height: 100%;
+				width: 100%;
+				object-fit: cover;
+			}
+			&.img-sm {
+				flex: 0 0 190px;
+				max-width: 190px;
+			}
+			&.img-lg {
+				flex: 1;
+			}
+			&:hover {
+				a {
+					img {
+						opacity: 1;
+					}
+				}
+				&::after {
+					opacity: 1;
+				}
+			}
+
+			a {
+				img {
+					position: absolute;
+					top: 50%;
+					left: 50%;
+					transform: translate(-50%, -50%);
+					height: 50px;
+					width: 50px;
+					cursor: pointer;
+					opacity: 0;
+				}
+			}
+			&:after {
+				position: absolute;
+				left: 10px;
+				opacity: 0;
+				top: 10px;
+				height: calc(100% - 20px);
+				width: calc(100% - 20px);
+				border: 1px solid $border-dark-theme-1;
+				content: "";
+			}
+		}
+	}
+}
+
+@media (min-width: 992px) and (max-width: 1370px) {
+	.screen-share-area .container {
+		max-width: 85%;
+		margin: 0 auto;
+	}
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+	.screen-share-area {
+		.share-immortal-slide {
+			.game-chrt-list-txt {
+				h4 {
+					font-size: 8px;
+				}
+			}
+		}
+	}
+	.screen-share-area {
+		.share-immortal-slide {
+			.game-chrt-list-txt {
+				p {
+					font-size: 6px;
+				}
+			}
+		}
+	}
+}
+@media (min-width: 320px) and (max-width: 992px) {
+	.screen-share-area {
+		.share-immortal-slider {
+			&::after {
+				display: none;
+			}
+		}
+	}
+
+	.faction-media-galleary-area {
+		.faction-media-images {
+			&.faction-media-tp-images {
+				width: 100%;
+				justify-content: space-between;
+				.faction-media-img {
+					margin: 0;
+					padding: 10px;
+					&:nth-child(3) {
+						flex: 0 0 50% !important;
+						max-width: 50% !important;
+					}
+					&:nth-child(4) {
+						flex: 0 0 50% !important;
+						max-width: 50% !important;
+					}
+					&.img-lg {
+						flex: 0 0 60%;
+						max-width: 60%;
+					}
+					&.img-sm {
+						max-width: 100%;
+						flex: 0 0 40%;
+					}
+				}
+			}
+			&.faction-media-btm-images {
+				display: block;
+				.faction-media-img {
+					height: 270px;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	.screen-share-area {
+		.share-immortal-slide {
+			.game-chart-list {
+				margin-bottom: 25px;
+			}
+		}
+	}
+	.hro-slider-area {
+		&.media-btm-slider {
+			margin-bottom: -180px;
+
+			.hro-btm-btns .hero-button-list {
+				flex-direction: column;
+				width: 100%;
+			}
+			.hro-btm-btns .hero-button-list a {
+				width: 100%;
+			}
+			.hro-btm-btns .hero-button-list a:nth-child(1) {
+				border-bottom: none;
+			}
+			a {
+				display: block;
+			}
+		}
+	}
+	.faction-media-galleary-area {
+		padding-top: 150px;
+	}
+}

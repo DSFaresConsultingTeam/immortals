@@ -1,0 +1,220 @@
+/* Base CSS */
+.alignleft {
+	float: left;
+	margin-right: 15px;
+}
+
+.alignright {
+	float: right;
+	margin-left: 15px;
+}
+
+.site-logo a:nth-child(2) {
+	display: none;
+}
+
+.aligncenter {
+	display: block;
+	margin: 0 auto 15px;
+}
+
+.desktop-only {
+	display: block;
+}
+
+.mobile-only {
+	display: none;
+}
+
+a:focus {
+	outline: 0 solid;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0 0 15px;
+	color: $color-dark-2;
+	font-family: $font-Elan;
+	font-weight: 500;
+}
+
+body {
+	color: $color-light-gray;
+	font-weight: normal;
+	font-family: $font-GothamSSm;
+	background-color: $color-dark;
+}
+
+/*
+@font-face {
+    font-family:RusticLoveTattoo;
+    src: url(../fonts/RusticLoveTattoo.otf);
+}
+
+*/
+
+/* Fonts start */
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-Black.woff2") format("woff2"),
+		url("../fonts/GothamSSm-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-BlackItalic.woff2") format("woff2"),
+		url("../fonts/GothamSSm-BlackItalic.woff") format("woff");
+	font-weight: 900;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-BoldItalic.woff2") format("woff2"),
+		url("../fonts/GothamSSm-BoldItalic.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-Book.woff2") format("woff2"),
+		url("../fonts/GothamSSm-Book.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-Bold.woff2") format("woff2"),
+		url("../fonts/GothamSSm-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-BookItalic.woff2") format("woff2"),
+		url("../fonts/GothamSSm-BookItalic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-Medium.woff2") format("woff2"),
+		url("../fonts/GothamSSm-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-LightItalic.woff2") format("woff2"),
+		url("../fonts/GothamSSm-LightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-Light.woff2") format("woff2"),
+		url("../fonts/GothamSSm-Light.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-XLight.woff2") format("woff2"),
+		url("../fonts/GothamSSm-XLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-XLightItalic.woff2") format("woff2"),
+		url("../fonts/GothamSSm-XLightItalic.woff") format("woff");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-GothamSSm;
+	src: url("../fonts/GothamSSm-MediumItalic.woff2") format("woff2"),
+		url("../fonts/GothamSSm-MediumItalic.woff") format("woff");
+	font-weight: 500;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-Elan;
+	src: url("../fonts/ElanITCStd-Bold.woff2") format("woff2"),
+		url("../fonts/ElanITCStd-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-Elan;
+	src: url("../fonts/ElanITCStd-Book.woff2") format("woff2"),
+		url("../fonts/ElanITCStd-Book.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-Elan;
+	src: url("../fonts/ElanITCStd-Medium.woff2") format("woff2"),
+		url("../fonts/ElanITCStd-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-Elan;
+	src: url("../fonts/ElanITCStd-Black.woff2") format("woff2"),
+		url("../fonts/ElanITCStd-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: $font-PyrusSigils;
+	src: url("../fonts/PyrusSigils.woff2") format("woff2"),
+		url("../fonts/PyrusSigils.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* Fonts end */
